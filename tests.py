@@ -16,3 +16,9 @@ class SimpleTest(unittest.TestCase):
 
     def test_fail(self):
         self.assertEqual(11, 7 + 3)
+
+    def test_pass(self):
+        self.assertGreater(4, 10)
+    
+    
+        
